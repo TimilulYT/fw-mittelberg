@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feuerwehr Mittelberg - Ihr Partner in der Notfallhilfe">
+    <title>Feuerwehr Mittelberg</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/firefighter-icon.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/firefighter-logo.png" alt="Feuerwehr Mittelberg Logo">
+                <h1>Feuerwehr Mittelberg</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#ueber-uns">Über uns</a></li>
+                <li><a href="#einsatz">Einsätze</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Willkommen bei der Feuerwehr Mittelberg!</h2>
+            <p>Wir sind Ihre erste Anlaufstelle bei Notfällen – schnell, zuverlässig und immer bereit!</p>
+        </div>
+    </section>
+
+    <section id="ueber-uns" class="about">
+        <h2>Über uns</h2>
+        <div class="about-content">
+            <img src="assets/firefighters.jpg" alt="Feuerwehr Mittelberg Team" />
+            <p>Die Feuerwehr Mittelberg wurde 1883 gegründet und ist seitdem ein unverzichtbarer Teil der Gemeinde. Mit einem engagierten Team aus Fachleuten und Freiwilligen bieten wir eine schnelle und effektive Hilfe in allen Notsituationen.</p>
+        </div>
+    </section>
+
+    <section id="einsatz" class="einsatz">
+        <h2>Aktuelle Einsätze</h2>
+        <div class="einsatz-liste">
+            <div class="einsatz-item">
+                <h3>Einsatz 1</h3>
+                <p>Brandbekämpfung in der Nähe des Waldes. Eingesetzte Fahrzeuge: LF 10, TLF 16/25.</p>
+            </div>
+            <div class="einsatz-item">
+                <h3>Einsatz 2</h3>
+                <p>Technische Hilfeleistung nach einem Unfall auf der B12. Eingesetzte Fahrzeuge: HLF 20, Rüstwagen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="kontakt">
+        <h2>Kontakt</h2>
+        <form action="mailto:feuerwehr@mittelberg.de" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Feuerwehr Mittelberg. Alle Rechte vorbehalten.</p>
+        <ul class="social-links">
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
